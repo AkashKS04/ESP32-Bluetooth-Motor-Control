@@ -1,0 +1,20 @@
+🔌 HARDWARE CONNECTIONS (ESP32 + L298N)
+
+🔹 Motor → L298N
+Motor	L298N
++	OUT1
+−	OUT2
+
+🔹 L298N → ESP32
+L298N	ESP32 GPIO
+IN1	GPIO 26
+IN2	GPIO 27
+GND	GND
+
+⚠️ ESP32 GND and L298N GND must be common
+
+🔹 Power
+
+Motor battery → L298N +12V & GND
+
+ESP32 powered via USB
