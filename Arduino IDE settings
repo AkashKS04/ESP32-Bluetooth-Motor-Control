@@ -1,0 +1,4 @@
+After pasting the code 
+1. Select DOIT ESP32 DEVKIT 1 in Board Manager
+2. See the port which is connected to ESP32 in device manager and select that port in Arduino IDE by going to tools.
+3. Upload the code after all these.
